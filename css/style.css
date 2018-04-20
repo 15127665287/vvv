@@ -1,0 +1,276 @@
+.active{
+	color:#FF6D2F;
+
+}
+ html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+.nav li span{
+	width: 32px;
+	height: 6px;
+	display: inline-block;
+	background-color: #FF6A28;
+	
+}
+
+.nav li{
+	float: left;
+	font-size: 0.65rem;
+	text-align: center;
+	margin-top: 0.5rem !important;
+	padding-bottom: 0.5rem;
+	position: relative;
+}
+.nav li .s10{
+	position: absolute;
+	left:60px; top:56px;
+
+}
+.nav li .s11{
+	position: absolute;
+	left:60px; top:56px;
+	display: none;
+}
+.nav li .s12{
+	position: absolute;
+	left:84px; top:56px;
+	display: none;
+}
+.nav li .s13{
+	position: absolute;
+	left:60px; top:56px;
+	display: none;
+}
+.nav .l1{
+	margin-left: 0.65rem;
+}
+.nav .l2{
+	margin:0 1.2rem;
+}
+.nav .l3{
+	margin-right: 1.2rem;
+}
+.nav{
+	box-shadow: 0px 1px 30px #EAE4DE;
+	position: fixed;
+	left:0; top:0;
+	z-index: 100;
+	background-color: #fff;
+}
+
+.content1 img{
+	width: 100%;
+
+}
+.content1{
+	margin-top: 2.5rem;
+	background-color: #F7F5F2;
+}
+
+.content2 .zi .p1{
+	font-size: 1rem;
+}
+.content2 .zi li{
+	font-size: 0.55rem;
+	line-height: 1.05rem;
+}
+.content2 ul{
+	margin-top: 0.5rem;
+}
+.content2{
+	margin-top: -1.2rem;
+	padding-bottom: 1rem;
+	background-image: url(../images/微信图片_20180420202831.jpg);
+	background-repeat: no-repeat;
+	background-position: left -1rem;
+}
+.content2 .zi{
+	margin-bottom: 1rem;
+}
+.content2 img{
+	width: 100%;
+}
+
+.content3{
+	height: 30rem;
+	margin-top: 1rem;
+	border:2px solid #FF6D2F;
+	position: relative;
+	margin-bottom: 1.85rem;
+}
+.content3 .zi .p1{
+	font-size: 1rem;
+	position: absolute;
+	right:2.45rem; top:-0.7rem;
+	background-color: #F7F5F2;
+	padding: 0 10px;
+}
+.content3 .zi li{
+	font-size: 0.55rem;
+	float: right;
+	line-height: 1rem;
+	width: 100%;
+	text-align: right;
+}
+.content3 ul{
+	margin-top: 1.85rem;
+	margin-right: 0.65rem;
+	position: relative;
+}
+
+.content3 .img{
+	width: 12.3rem;
+	height: 10.175rem;
+	margin-left: 0.5rem;
+	margin-bottom: 1rem;
+}
+.content3 .img img{
+	width: 12.3rem;
+
+	margin-top: -1.1rem;
+}
+
+
+
+.bao{
+	overflow: hidden;
+}
+.swiper-container{
+	padding-left: 0.75rem;
+	 width: 100%;
+      height: 100%;
+
+}
+.swiper-container .swiper-slide{
+	width: 4.6rem;
+	height: 6rem;
+	margin: 0 0.35rem;
+
+	text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+}
+.swiper-container .swiper-slide a{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+.swiper-container .swiper-slide img{
+	width: 100%;
+	height: 4.6rem;
+	display: inline-block;
+}
+
+.swiper-container .swiper-slide span{
+	width: 100%;
+	color:#41332E;
+	font-size: 0.65rem;
+	text-align: center;
+	display: inline-block;
+}
+
+
+
+.content4 .zi .p1{
+	text-align: center;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+.content4 .zi li{
+	font-size: 0.52rem;
+	text-align: center;
+	line-height: 1rem;
+}
+.content4 .zi ul{
+	margin-bottom: 1.25rem;
+}
+.content4 .tu div{
+	float: left;
+	width: 7.45rem;
+	height: 7.5rem;
+}
+.content4 .tu img{
+	width: 100%;
+	height: 100%;
+}
+
+.content4 .tu .div2{
+	background-color: #FF6D2F;
+	position: relative;
+}
+.content4 .tu .div3{
+	background-color: #FF6D2F;
+	position: relative;
+}
+.content4 .div2 img{
+	width: 0.4rem;
+	height: 0.725rem;
+	position: absolute;
+	left:-0.38rem; top:0.75rem;
+}
+.content4 .div3 img{
+	width: 0.4rem;
+	height: 0.725rem;
+	position: absolute;
+	right:-0.38rem; top:0.75rem;
+}
+.content4 .tu .p1{
+	font-size: 0.65rem;
+	color:#fff;
+	margin: 0.7rem 0 0  1rem;
+}
+.content4 .tu li{
+	font-size: 0.5rem;
+	color:#fff;
+	line-height: 0.9rem;
+}
+.content4 .tu ul{
+	margin-top: 1rem;
+	margin-left: 1rem;
+	padding-bottom: 1.37rem;
+}
+
+.content5 .p1{
+	text-align: center;
+	margin-bottom: 1rem;
+	font-size: 1rem;
+}
+.content5{
+	margin-top: 2rem;
+	
+}
+body{
+	background-color: #F7F5F2;
+}
+.content1{
+	background-color: #F7F5F2;
+}
+.content6 .img1{
+	width: 100%;
+
+}
+
+
